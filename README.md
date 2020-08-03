@@ -1,45 +1,113 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+# **Online Test**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+Online Test is an application which has been built using **React.js** for client side , **Node.js** for the server side and **MongoDB** for the database. This application was build by **Codingmart Technologies** for conducting there campus interview coding round. By using this applicaton the admin can monitor the students who are undergoing the interview process.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+## **Getting Started**
 
----
+**Online Test** has three repos in [git.codingmart.com](https://git.codingmart.com/cm "gitlab"). Named as following: 
+* online-test-admin
+* online-test-user
+* online-test-be 
 
-## Edit a file
+by using the following *HTTPs or SSH* key clone the files in a seprete parent folder.
+``` bash
+    # HTTPs
+    git clone https://git.codingmart.com/cm/online-test-admin.git
+    git clone https://git.codingmart.com/cm/online-test-user.git
+    git clone https://git.codingmart.com/cm/online-test-be.git
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+    # SSH
+    git clone git@git.codingmart.com:cm/online-test-admin.git
+    git clone git@git.codingmart.com:cm/online-test-user.git
+    git clone git@git.codingmart.com:cm/online-test-be.git
+```
 
----
+### **Prerequisites**
 
-## Create a file
+Some of the software requirements are :
 
-Next, you’ll add a new file to this repository.
+* Visual Studio Code ( [Download Visual Studio Code](https://code.visualstudio.com/download "visualstudio") )
+* React.js ( [Installation guide React.js](https://reactjs.org/docs/getting-started.html "React.js") )
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+* Node.js ( [Download Node.js](https://nodejs.org/en/download/ "Node.js") )
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+* MongoDB ( [Installation guide MongoDB](https://docs.mongodb.com/manual/installation/ "MongoDb") )
 
----
+* Docker ( [Installation guide Docker](https://docs.docker.com/engine/install/ "Docker") )
 
-## Clone a repository
+### **Dependencies**
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
+* **ace-builds** : ^1.4.8
+* **react-ace**: ^8.1.0
+* **axios** : ^0.19.2
+* **react-recaptcha** : ^2.3.10
+* **sweetalert** : ^2.1.2
+* **apexcharts** : ^3.17.1
+* **react-apexcharts** : ^1.3.6
+* **fortawesome** : 5.13.0
+* **@sendgrid/mail**" : ^6.5.5
+* **app-root-path** : ^3.0.0
+* **bcrypt** : ^4.0.1
+* **body-parser** : ^1.19.0
+* **cors** : ^2.8.5
+* **diff** : ^4.0.2,
+* **dotenv** : ^8.2.0,
+* **express**: ^4.17.1,
+* **jsonwebtoken**: ^8.5.1
+* **mongodb** : ^2.2.16
+* **mongoose** : ^5.9.5
+* **morgan** : ^1.10.0
+* **multer** : ^1.4.2
+* **nodemon** : ^2.0.2
+* **supertest** : ^4.0.2
+* **winston** : ^3.2.1
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
+### **Installing**
 
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+Change your directory to the parrent folder of these applications. Stop and remove all the containers and images which are currently running. Then run the **docker-compose.yml** by the following command.
+ ```bash
+    sudo docker stop containerId
+    
+    sudo docker ps
+
+    sudo docker system prune -a
+
+    sudo docker-compose up --build
+
+ ```
+<!-- Featues will come here -->
+
+ ## **Deployment**
+ Switch to the server with the use of the following command.
+```
+    ssh root@167.71.236.57
+```
+
+Now navigate to the project folder `/var/www/OnlineTest`. Then install and build all the Frontend files.
+```
+    npm i 
+    npm run-script build
+``` 
+ Then Stop and remove all the containers and images which are currently running. Then run the **docker-compose.yml** by the following command.
+ ```bash
+    sudo docker stop containerId
+    
+    sudo docker ps
+
+    sudo docker system prune -a
+
+    sudo docker-compose up --build
+
+ ```
+ To make any changes in Nginx config file go to `/etc/nginx/sites-available/` and edit the file called **default**.
+
+ ## **Built With**
+
+* React.js ( [Installation guide React.js](https://reactjs.org/docs/getting-started.html "React.js") )
+
+* Node.js ( [Download Node.js](https://nodejs.org/en/download/ "Node.js") )
+
+* MongoDB ( [Installation guide MongoDB](https://docs.mongodb.com/manual/installation/ "MongoDb") )
+
+
