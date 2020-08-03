@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha Test/Test/Users/questionsTest.js",
+    "start": "nodemon index.js"
+  },
+  "author": "calwin",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.5",
+    "app-root-path": "^3.0.0",
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "diff": "^4.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^2.2.16",
+    "mongoose": "^5.9.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.2",
+    "winston": "^3.2.1",
+    "winston-color": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^7.1.2"
+  }
+}

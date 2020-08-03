@@ -1,0 +1,73 @@
+.change-compare-screen {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: white;
+   overflow: hidden;
+}
+.change-compare-screen-inner{
+    width: 90vw;
+    height: 87vh;
+    display: flex;
+    background-color: white;
+    z-index: 1;
+}
+.changes-list {
+    width: 20%;
+    height: 100%;
+    padding: 10px 0px 10px 10px;
+    box-shadow: 0px 0px 16px -10px;
+}
+.changes-view {
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.react-diff-viewer-1 {
+    width: 100%;
+    height: 78vh;
+    display: flex;
+    box-shadow: 0px 0px 12px -4px;
+
+}
+.diff-viewer {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.change-compare-screen-inner-close{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.400);
+    
+}
+.change-compare-screen-close-btn{
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    right: 1vw;
+    top: 1vh;
+    font-weight: bold;
+    z-index: 1;
+
+}
+.change-compare-screen-close-btn:hover{
+    font-size: 28px;
+}

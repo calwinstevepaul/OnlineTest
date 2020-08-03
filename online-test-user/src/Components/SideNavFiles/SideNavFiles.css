@@ -1,0 +1,38 @@
+.files{
+    margin-top: -6px;
+    margin-right: 5px;
+    min-width: fit-content;
+    width: 17vw;
+    height: 101%;
+    background-color: rgb(50, 52, 54);   
+    padding-top: 10px;
+    border-right: 5px solid #1D1F21;
+    padding: 10px;
+
+}
+.filesname{
+    list-style: none;
+    padding: 0;
+    color: rgb(189, 187, 187);
+}
+.filesname p{
+    margin: 10px;
+}
+.filesname li{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.filesname li:hover {
+    background-color: rgba(29, 31, 33, 0.397);
+    cursor: pointer;
+}
+.highlight {
+    background-color: #1D1F21 !important;
+    cursor: pointer;
+}
+.filesname li img{
+    margin-right: 10px;
+}
+    

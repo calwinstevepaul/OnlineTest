@@ -1,0 +1,244 @@
+.search-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.search-result-box {
+    width: 50%;
+    height: 100%;
+}
+.search-box {
+    width: 50%;
+    height: 100%;
+}
+.single-search-result {
+    background-color: brown;
+    margin: 20px;
+    color: cornsilk;
+}
+
+
+
+.attended-questions-container {
+    background-color: wheat;
+    height: 80vh;
+}
+
+
+.checkuser-header {
+    background-color: blue;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+.single-question-box {
+    background-color: greenyellow;
+    width: 80vw;
+    height: 10vh;
+    margin-top: 20px;
+}
+.checkUser-admin-out{
+    display: flex;
+    justify-content: center;
+    width: 83vw;
+}
+.checkUser-admin {
+    padding: 36px  ; 
+    border-radius:5px ;
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+.check-user-admin-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.check-user-admin-1-1{
+    font-weight: 600;
+    font-size: 16px;
+    color: #1D1F21;
+
+}
+.check-user-admin-1-2{
+    font-size: 14px;
+    color: #1D1F21;
+}
+
+.mainpage-admin-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+    height: 75%;
+    position: relative;
+}
+.ace-editor-view-mode{
+    width: 55%;
+    box-shadow: 0px 0px 5px #DBDBDB;
+    border-radius: 3px;
+    border: 0.5px solid #DBDBDB;
+    /* padding: 15px; */
+    height: 100%;
+    display: flex;
+
+}
+.mainpage-admin-3-1{
+    width: 45%;
+    box-shadow: 0px 0px 5px #DBDBDB;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: 0.5px solid #DBDBDB;
+    padding: 15px;
+    height: 100%;
+    overflow-y: auto
+}
+
+.mainpage-admin-bigmain{
+    width: 100%;
+    box-shadow: 0px 0px 5px #DBDBDB;
+    border-radius: 3px;
+    border: 0.5px solid #DBDBDB;
+    padding: 15px;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+}
+.mainpage-admin-bigmain-item {
+    padding: 20px;
+
+}
+.mainpage-admin-bigmain-item:hover {
+    background-color: rgba(128, 128, 128, 0.493);
+}
+
+.mainpage-admin-3-2-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.mainpage-admin-3-2-2:hover{
+    background-color: #DBDBDB;
+}
+.questionMenu{
+    position: absolute;
+    border: #DBDBDB solid 1px;
+    background-color: white;
+    margin-left: -58px;
+    margin-top: 0px;
+    padding: 0 10px;
+    height: fit-content;
+    box-shadow: 0px 0px 5px #DBDBDB;
+    z-index: 1;
+}
+.questionMenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.questionMenu ul li{
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 14px;
+    color: #1D1F21;
+    transition: ease-in-out 0.25s;
+
+}
+.questionMenu ul li:hover{
+    background-color: #DBDBDB;
+    cursor: pointer;
+}
+
+
+.close{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgba(0, 0, 0, 0.445); */
+}
+
+.selectedMenu{
+    padding: 5px 10px;
+    background-color: #DBDBDB;
+}
+.menubutton{
+    padding: 5px 10px;
+    transition: ease-in-out 0.25s;
+}
+.menubutton:hover{
+    cursor: pointer;
+    background-color: #DBDBDB;
+}
+
+.selectedChange {
+    background-color: #DBDBDB;
+}
+
+.codeMarker {
+    background: #19580947;
+    border: 1px solid #3c753b47;
+    position: absolute;
+    z-index: 20;
+  }
+  .react-diff-viewer {
+      width: 100%;
+      height: 100%;
+  }
+  /* .css-1n5o7vh-diff-container {
+      width: 400% !important;
+  } */
+
+  .question-2 {
+      display: flex;
+  }
+  .question-2-0 {
+      width: 33.3%;
+  }
+  .added-span {
+      font-size: 13.5px;
+      color: green
+  }
+  .removed-span {
+    font-size: 13.5px;
+    color: red
+}
+.adminSearch-btn{
+    position: absolute;
+    right: 0vw;
+    top: -4vh;
+    padding: 7px;
+    outline: none;
+    border: none;
+    background-color: #282A2E;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    z-index: 1;
+}
+.search-result-close-btn {
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    right: 1vw;
+    top: 1vh;
+    font-weight: bold;
+}
+.search-result-close-btn:hover {
+    background-color: rgba(128, 128, 128, 0.383);
+   
+}
+.SearchHeading{
+    width: 100%;
+    margin-bottom: 7px;
+}

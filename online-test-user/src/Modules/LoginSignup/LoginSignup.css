@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(243, 243, 243);
+  }
+  button{
+    cursor: pointer;
+  }
+  .signup_head {
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    text-align: center;
+  }
+  .login-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+  }
+  .loginSignup_outer_img {
+    position: relative;
+  }
+  .loginSignup_inner_img {
+    position: absolute;
+    margin-top: 7.35%;
+    margin-left: -22.24%;
+    z-index: 0;
+  }
+  .login-signup-div {
+    border: solid 1px #dbdbdb;
+    width: 350px;
+    height: fit-content;
+    min-height: 420px;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  .login-signup-div-switch {
+    width: 350px;
+    height: 63px;
+    border: solid 1px #dbdbdb;
+    background-color: white;
+  }
+  .logo-img {
+    width: 175px;
+    height: 50px;
+    margin: 5px 36px 0px;
+    font-family: sans-serif;
+    font-size: 23px;
+
+  
+  }
+  .logo{
+    padding:50px 36px 25px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-signup-div-button {
+    background-color: white;
+    color: rgb(37, 180, 236);
+    font-weight: bold;
+    outline: none;
+    border: none;
+  }
+  .login-signup-div-para {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .login-signup-div-inner form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-signup-div-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login-signup-div-input {
+    width: 258px;
+    padding: 10px;
+    margin: 4px;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    border: 0.5px solid #dbdbdb;
+    border-radius: 5px;
+  }
+  .login-signup-div-button-2 {
+    width: 273px;
+    padding: 7px;
+    margin: 9px;
+    background-color: rgb(37, 180, 236);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    margin-top:0;
+  }

@@ -1,0 +1,45 @@
+version: "3"
+services:
+  admin-frontend:
+    container_name: OnlineTestAdmin
+    build:
+      context: ./online-test-admin
+      dockerfile: Dockerfile
+    image: client/admin
+    ports:
+      - "4000:4000"
+    volumes: 
+      - ./online-test-admin:/usr/src/app
+  user-frontend:
+    container_name: OnlineTestUser
+    build:
+      context: ./online-test-user
+      dockerfile: Dockerfile
+    image: client/user
+    ports: 
+      - "3000:3000"
+    volumes: 
+      - ./online-test-user:/usr/src/app
+  server:
+    container_name: OnlineTestServer
+    build: 
+      context: ./online-test-be
+      dockerfile: Dockerfile
+    image: server/user_admin
+    ports:
+      - "9000:9000"
+    links: 
+      - mongo
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    restart: always
+    container_name: OnlineTestMongo
+    volumes:
+        - ./data-node:/data/db
+    ports:
+        - 27018:27017
+volumes:
+      mongo: ~
+

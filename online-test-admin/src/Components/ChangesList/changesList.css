@@ -1,0 +1,43 @@
+.Changes-List {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.change-list-item {
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+}
+
+.list-items {   
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    position: relative;
+}
+
+.change-list-item:hover {
+    background-color: rgba(231, 231, 231, 0.787);
+}
+
+.list-heading {
+    top:0;
+    width: 100%;
+    height: 30px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.selected {
+    background-color: rgb(175, 169, 169) !important;
+}
+
+.list-item-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 10px;
+    
+}

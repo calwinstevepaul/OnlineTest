@@ -1,0 +1,15 @@
+Deployment Instructions:-
+
+1. Once all the docker and docker-compose files are written, go the parent directory in terminal type "sudo docker-compose up" 
+
+2. Then check all images by the command "sudo docker images".
+
+3. Now login to your account and push the image in docker hub by the commands
+	"docker login --username=yourhubusername --email=youremail@company.com"
+	"docker tag imgeID yourhubusername/repoName:tagName"
+	"docker push yourhubusername/repoName"
+
+4. Once it is pushed, Go to the server pull and run by the following command
+	"docker run --name name -p portNumber yourhubusername/repoName" 
+
+5. Now write and start/restart your ngnix file by the command "sudo service nginx restart".

@@ -1,0 +1,17 @@
+@import url(//db.onlinewebfonts.com/c/b54f59ce3150d8bba0e8a4a16e011dd8?family=SoleilW01-Book);
+@font-face {
+  font-family: "SoleilW01-Book"; 
+  src: url("//db.onlinewebfonts.com/t/b54f59ce3150d8bba0e8a4a16e011dd8.eot"); 
+  src: url("//db.onlinewebfonts.com/t/b54f59ce3150d8bba0e8a4a16e011dd8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b54f59ce3150d8bba0e8a4a16e011dd8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b54f59ce3150d8bba0e8a4a16e011dd8.woff") format("woff"), url("//db.onlinewebfonts.com/t/b54f59ce3150d8bba0e8a4a16e011dd8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b54f59ce3150d8bba0e8a4a16e011dd8.svg#SoleilW01-Book") format("svg"); 
+}
+body {
+  margin: 0;
+  font-family: "SoleilW01-Book";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

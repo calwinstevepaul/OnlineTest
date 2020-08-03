@@ -1,0 +1,62 @@
+.users-table{
+    padding: 30px;
+}
+.users-table-inner{
+    display: flex;
+    justify-content: center;
+    height: 84vh;
+    box-shadow: 0px 0px 10px #dbdbdb;
+    border: solid 1px #dbdbdb;
+    margin-top: 20px;
+    overflow-y: auto;
+}
+.users-table-inner table{ 
+    width: 100%;    
+    border-collapse: collapse;
+    
+ 
+    
+}
+.users-table-inner tr:hover{
+    background-color: #dbdbdb;
+    cursor: pointer;
+}
+.users-table-inner table th{
+    background-color: #1D1F21;
+    color: white;
+    text-align: start;
+    /* border:  solid 1px #dbdbdb; */
+
+}
+.users-table-inner td{
+    border: none;
+    border-bottom:  solid 1px #dbdbdb;
+    color: #1D1F21;
+    font-size: 15px;
+}
+.users-table-inner table, th, td{
+padding: 10px;
+border: none;
+}
+.notdropdown{
+    height: 0px;
+}
+.dropdown{
+    height: fit-content;
+    transition: ease-in-out 1s;
+}
+.dropdown-1{
+    /* display: flex; */
+    padding: 0px 40px;
+}
+.dropdown:hover{
+    background-color: white !important;
+}
+.dropdown-1-questions{
+    padding: 5px 15px;
+    margin: 0 5px;
+    /* border: #dbdbdb 1px solid; */
+}
+.dropdown-1-questions:hover{
+   background-color: #dbdbdb;
+}

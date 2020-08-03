@@ -1,0 +1,10 @@
+.main-page-admin {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 83vw;
+    height: 100%;
+    position: relative;
+}

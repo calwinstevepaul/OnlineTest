@@ -1,0 +1,30 @@
+.check-user-admin-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.check-user-admin-1-1{
+    font-weight: 600;
+    font-size: 16px;
+    color: #1D1F21;
+
+}
+.check-user-admin-1-2{
+    font-size: 14px;
+    color: #1D1F21;
+    display: flex;
+    align-items: center;
+}
+.simplehead-date {
+    margin-left: 20px;
+}
+.search-box-simplehead {
+    margin-right: 20px;
+    width: 154px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border:1px solid #1D1F21;
+    border-radius: 3px;
+}
